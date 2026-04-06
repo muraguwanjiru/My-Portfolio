@@ -1,0 +1,53 @@
+body{
+background-color: magenta;
+height: 100vh;
+
+}
+
+
+.profile-photo{
+    width: 399px;
+    height:399px;
+    border-radius: 70%;
+    margin: 30px;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    background-color: darkmagenta;
+    width:900px;
+    height: 400px;
+    border-top-right-radius: 700px;
+    border-bottom-right-radius: 900px;
+    border-bottom-left-radius: 900px;
+  
+}
+
+ #header{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ 
+
+
+
+ }
+#name{
+    text-align: center;
+   font-size: 30px;
+    font-weight: bolder;
+
+}
+#header>div{
+    flex-grow: 1;
+}
+.nav-bar{
+    gap: 5px;
+}
+a{
+    margin-right: 15px;
+}

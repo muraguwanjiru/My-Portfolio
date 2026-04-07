@@ -38,7 +38,7 @@ box-sizing: border-box;
 
 
  }
-#name{
+#Name{
     text-align: center;
    font-size: 30px;
     font-weight: bolder;
@@ -114,6 +114,7 @@ table{
     
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 
 }
     th,td{
@@ -129,7 +130,7 @@ table{
         border-color: darkmagenta;
     }
     p{
-        font-size:30px;
+        font-size:25px;
     }
     #interests{
         display: flex;

@@ -53,6 +53,7 @@ box-sizing: border-box;
 }
 a{
     margin-right: 15px;
+    font-size: 25px;
 }
 .autobiography{
     display: flex;
@@ -130,3 +131,52 @@ table{
     p{
         font-size:30px;
     }
+    #interests{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+        gap: 50px;
+    }
+    .interest{
+        height: 300px;
+        width: 300px;
+    }
+    #contact-me{
+        display: grid;
+        place-items: center;
+    }
+    
+    #name,#email,#btn{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height:40px;
+     width: 400px;
+     padding: 50px;
+     font-size: 20px;
+    
+    }
+    
+    .footer{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;        
+        background-color: darkmagenta;
+        gap: 50px;
+    }
+    .footer>div{
+        flex-grow: 1;
+    }
+    #connect{
+         margin-bottom: 0px;
+        margin-left: 100px;
+       
+    }
+    #copyright{
+        margin-right: 100px;
+    }
+   
